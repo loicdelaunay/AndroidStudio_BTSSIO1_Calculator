@@ -2,9 +2,6 @@ package thlaurebtssio.calculator;
 
 import android.os.Bundle;
 
-/**
- * Created by Almarean on 29/03/2017.
- */
 
 public class CalcDev extends MainActivity {
     @Override
