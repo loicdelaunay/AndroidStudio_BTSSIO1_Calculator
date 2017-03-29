@@ -17,8 +17,24 @@ public class MainActivity extends AppCompatActivity {
         btnCalcStand.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, DiceActivity.class);
+                Intent intent = new Intent(MainActivity.this, CalcStandard.class);
                 startActivity(intent);
+            }
+        });
+
+        Button btnCalcDev = (Button) findViewById(R.id.buttonCalcDev);
+        btnCalcDev.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CalcDev.class);
+                startActivity(intent);
+            }
+        });
+
+        Button qt =(Button)findViewById(R.id.buttonQuit);
+        qt.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                System.exit(0);
             }
         });
     }
