@@ -32,12 +32,12 @@
         android:layout_height="wrap_content"
         android:padding="20dp">
         <Button
-            android:id="@+id/textViewCalcStand"
+            android:id="@+id/buttonCalcStand"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"
             android:text="Standard"
-            android:textSize="20dp"
+            android:textSize="20sp"
             />
     </FrameLayout>
 
@@ -50,12 +50,12 @@
         android:layout_height="wrap_content"
         android:padding="20dp">
         <Button
-            android:id="@+id/textViewCalcDev"
+            android:id="@+id/buttonCalcDev"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"
             android:text="Développeur"
-            android:textSize="20dp"
+            android:textSize="20sp"
             />
     </FrameLayout>
 
@@ -68,12 +68,12 @@
         android:layout_height="wrap_content"
         android:padding="20dp">
         <Button
-            android:id="@+id/textViewQuit"
+            android:id="@+id/buttonQuit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="20dp"
             android:text="Quitter"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:layout_gravity="center"
             />
     </FrameLayout>
