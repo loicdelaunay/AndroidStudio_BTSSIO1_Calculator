@@ -10,4 +10,6 @@ public class CalcStandard extends MainActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_calc_stand);
     }
+
+
 }
