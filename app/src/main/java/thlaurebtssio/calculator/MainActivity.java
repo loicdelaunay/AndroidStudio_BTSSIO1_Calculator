@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         btnCalcStand.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CalcStandard.class);
+                Intent intent = new Intent(MainActivity.this, TestCalcStand.class);
                 startActivity(intent);
             }
         });
