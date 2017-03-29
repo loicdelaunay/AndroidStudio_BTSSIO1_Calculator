@@ -6,11 +6,13 @@
     android:orientation="vertical"
     tools:context="thlaurebtssio.calculator.MainActivity">
 
+    <!-- TITRE -->
     <FrameLayout
         android:layout_width="368dp"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteY="0dp"
         tools:layout_editor_absoluteX="8dp">
+
         <TextView
             android:id="@+id/textTitle"
             android:layout_width="match_parent"
@@ -19,54 +21,63 @@
             android:textSize="30dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:padding="20dp"
-            />
+            android:padding="20dp" />
     </FrameLayout>
+
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="40dp" />
 
+
+    <!-- BOUTON D'ACCES A LA CALCULATRICE STANDARD -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp">
+
         <Button
             android:id="@+id/buttonCalcStand"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"
             android:text="Standard"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
     </FrameLayout>
+
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="40dp" />
 
+
+    <!-- BOUTON D'ACCES A LA CALCULATRICE DEVELOPPEUR -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp">
+
         <Button
             android:id="@+id/buttonCalcDev"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"
             android:text="Développeur"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
     </FrameLayout>
+
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="40dp" />
 
+
+    <!-- BOUTON POUR QUITTER -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp">
+
         <Button
             android:id="@+id/buttonQuit"
             android:layout_width="wrap_content"
@@ -74,8 +85,7 @@
             android:padding="20dp"
             android:text="Quitter"
             android:textSize="15sp"
-            android:layout_gravity="center"
-            />
+            android:layout_gravity="center" />
     </FrameLayout>
 
 </LinearLayout>

@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /* Méthode pour accéder à la vue de la calculatrice standard */
         Button btnCalcStand = (Button) findViewById(R.id.buttonCalcStand);
         btnCalcStand.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /* Méthode pour accéder à la vue de la calculatrice développeur */
         Button btnCalcDev = (Button) findViewById(R.id.buttonCalcDev);
         btnCalcDev.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /* Méthode pour le bouton quitter */
         Button qt =(Button)findViewById(R.id.buttonQuit);
         qt.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

@@ -9,7 +9,7 @@ import android.widget.EditText;
 
 public class CalcStandard extends MainActivity {
 
-    /*Début du programme*/
+    /*Déclaration des membres de la classe CalcStandard*/
     Button button0;
     Button button1;
     Button button2;
