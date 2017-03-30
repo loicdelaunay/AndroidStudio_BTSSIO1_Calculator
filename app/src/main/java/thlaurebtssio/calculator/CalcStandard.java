@@ -34,11 +34,12 @@ public class CalcStandard extends MainActivity {
     private boolean update = false;
     private String operateur = "";
 
+
+    /* Méthode onCreate */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_calc_stand);
-
 
         button0 = (Button) findViewById(R.id.button0);
         button1 = (Button) findViewById(R.id.button1);
@@ -60,6 +61,7 @@ public class CalcStandard extends MainActivity {
 
         ecran = (EditText) findViewById(R.id.EditText01);
 
+        /* Méthodes liées aux boutons */
         buttonPlus.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 plusClick();
@@ -164,6 +166,7 @@ public class CalcStandard extends MainActivity {
     }
 
 
+    /* Méthodes liées aux calculs */
     public void moinsClick(){
         if(clicOperateur){
             calcul();
